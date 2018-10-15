@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileSwitch">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/patient"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/patient"
+
+        android:background="@drawable/roundcorners"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/proswitchersize"
+        android:elevation="5dp"
+        />
+    <TextView
+        android:id="@+id/non_patient"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:textSize="@dimen/proswitchersize"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round2"
+        android:layout_height="wrap_content"
+        android:text="@string/non_patient"
+        />
+</LinearLayout>
